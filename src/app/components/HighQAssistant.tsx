@@ -59,7 +59,7 @@ export function HighQAssistant({ onClose, shouldShift }: HighQAssistantProps) {
           <div className="w-6 h-6 bg-[#4DB299] rounded flex items-center justify-center">
             <HelpCircle className="w-4 h-4 text-white" />
           </div>
-          <h3 className="font-['Raleway',sans-serif] font-medium text-[18px] text-[#1F1F1F]">HighQ guide</h3>
+          <h3 className="font-['Clario:Medium',sans-serif] font-medium text-[18px] text-[#1F1F1F]">HighQ guide</h3>
         </div>
         <div className="flex items-center gap-1">
           {!showResources && (
@@ -69,7 +69,7 @@ export function HighQAssistant({ onClose, shouldShift }: HighQAssistantProps) {
               title="View Resources"
             >
               <List className="w-4 h-4 text-[#1d4b34]" />
-              <span className="font-['Raleway',sans-serif] font-medium text-[16px] text-[#1d4b34] leading-[1.35]">Resources</span>
+              <span className="font-['Clario:Medium',sans-serif] font-medium text-[16px] text-[#1d4b34] leading-[1.35]">Resources</span>
             </button>
           )}
           <button 
@@ -98,7 +98,7 @@ export function HighQAssistant({ onClose, shouldShift }: HighQAssistantProps) {
               </div>
 
               <div className="pl-8">
-                <h2 className="font-['Raleway',sans-serif] font-medium text-[22px] text-[#212223] leading-[1.2] mb-4">
+                <h2 className="font-['Clario:Medium',sans-serif] font-medium text-[22px] text-[#212223] leading-[1.2] mb-4">
                   Ask questions about HighQ features, setup and best practices
                 </h2>
 
@@ -139,14 +139,14 @@ export function HighQAssistant({ onClose, shouldShift }: HighQAssistantProps) {
               >
                 <ChevronLeft className="w-5 h-5 text-[#737373]" />
               </button>
-              <h2 className="font-['Raleway',sans-serif] font-medium text-[20px] text-[#212223]">{selectedResource}</h2>
+              <h2 className="font-['Clario:Medium',sans-serif] font-medium text-[20px] text-[#212223]">{selectedResource}</h2>
             </div>
 
             <div className="px-5 py-4 space-y-4">
               {productUpdates.map((update, index) => (
                 <div key={index} className="bg-[#F5F5F5] rounded-lg p-5">
                   <p className="text-[14px] text-[#212223] mb-3">{update.date}</p>
-                  <h3 className="font-['Raleway',sans-serif] font-medium text-[16px] text-[#212223] mb-3">
+                  <h3 className="font-['Clario:Medium',sans-serif] font-medium text-[16px] text-[#212223] mb-3">
                     {update.title}
                   </h3>
                   <p className="text-[16px] text-[#212223] mb-3 italic">
@@ -176,7 +176,7 @@ export function HighQAssistant({ onClose, shouldShift }: HighQAssistantProps) {
               >
                 <ChevronLeft className="w-5 h-5 text-[#737373]" />
               </button>
-              <h2 className="font-['Raleway',sans-serif] font-medium text-[20px] text-[#212223]">Resources</h2>
+              <h2 className="font-['Clario:Medium',sans-serif] font-medium text-[20px] text-[#212223]">Resources</h2>
             </div>
 
             <div className="px-5 py-2">
