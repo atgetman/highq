@@ -1,10 +1,134 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
 
 /* Font Awesome 6 */
 @import url('https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css');
 @import url('https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css');
 @import url('https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css');
 
-/* Using Source Sans 3 (updated version of Source Sans Pro) for body */
-/* Using Raleway as a substitute for Clario (similar geometric sans-serif) */
+/* Clario Font Family */
+@font-face {
+  font-family: 'Clario';
+  src: url('/fonts/Clario-Light.woff2') format('woff2'),
+       url('/fonts/Clario-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clario';
+  src: url('/fonts/Clario-LightItalic.woff2') format('woff2'),
+       url('/fonts/Clario-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clario';
+  src: url('/fonts/Clario-Regular.woff2') format('woff2'),
+       url('/fonts/Clario-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clario';
+  src: url('/fonts/Clario-RegularItalic.woff2') format('woff2'),
+       url('/fonts/Clario-RegularItalic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clario';
+  src: url('/fonts/Clario-Medium.woff2') format('woff2'),
+       url('/fonts/Clario-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clario';
+  src: url('/fonts/Clario-MediumItalic.woff2') format('woff2'),
+       url('/fonts/Clario-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clario';
+  src: url('/fonts/Clario-Bold.woff2') format('woff2'),
+       url('/fonts/Clario-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clario';
+  src: url('/fonts/Clario-BoldItalic.woff2') format('woff2'),
+       url('/fonts/Clario-BoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clario';
+  src: url('/fonts/Clario-Black.woff2') format('woff2'),
+       url('/fonts/Clario-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clario';
+  src: url('/fonts/Clario-BlackItalic.woff2') format('woff2'),
+       url('/fonts/Clario-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Named variants for backwards compatibility with existing code */
+@font-face {
+  font-family: 'Clario:Light';
+  src: url('/fonts/Clario-Light.woff2') format('woff2'),
+       url('/fonts/Clario-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clario:Medium';
+  src: url('/fonts/Clario-Medium.woff2') format('woff2'),
+       url('/fonts/Clario-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clario:Bold';
+  src: url('/fonts/Clario-Bold.woff2') format('woff2'),
+       url('/fonts/Clario-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clario:Black';
+  src: url('/fonts/Clario-Black.woff2') format('woff2'),
+       url('/fonts/Clario-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
