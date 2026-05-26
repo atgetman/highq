@@ -12,6 +12,9 @@ export const router = createBrowserRouter([
       { index: true, Component: Home },
       { path: "tracker", Component: Tracker },
       { path: "documents", Component: Documents },
+      { path: "alpine", Component: Home },
+      { path: "lg", Component: Home },
+      { path: "vodafone", Component: Home },
     ],
   },
 ]);
