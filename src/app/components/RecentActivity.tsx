@@ -16,8 +16,6 @@ const activities: Activity[] = [
   { type: 'member', text: 'Added Michael Gray to workspace', user: 'Thomas Shelby', time: '3d ago' },
   { type: 'file', text: 'Uploaded property_valuation.xlsx', user: 'Polly Gray', time: '4d ago' },
   { type: 'chat', text: 'Started "Contract review discussion"', user: 'Arthur Shelby', time: '5d ago' },
-  { type: 'file', text: 'Updated lease_agreement_draft.docx', user: 'Thomas Shelby', time: '6d ago' },
-  { type: 'chat', text: 'Completed "Zoning compliance check"', user: 'Polly Gray', time: '1w ago' },
 ];
 
 const getActivityIcon = (type: string) => {
@@ -35,7 +33,7 @@ const getActivityIcon = (type: string) => {
 
 export function RecentActivity() {
   return (
-    <div className="bg-white border border-[#E5E5E5] rounded-lg px-6 pt-4 pb-6">
+    <div className="bg-white border border-[#E5E5E5] rounded-lg px-6 pt-4 pb-6 h-full">
       <div className="flex items-center gap-2 mb-4">
         <h3 className="text-[#212223] text-[20px] font-['Clario:Medium',sans-serif]">
           Recent activity
