@@ -176,7 +176,7 @@ function Container() {
       <div aria-hidden="true" className="absolute border-[rgba(255,255,255,0.01)] border-b-4 border-solid inset-0 pointer-events-none" />
       <div className="flex flex-row items-center justify-center size-full">
         <div className="content-stretch flex gap-[4px] h-full isolate items-center justify-center p-[16px] relative">
-          <p className="font-['Source_Sans_3:SemiBold',sans-serif] font-semibold leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap z-[2]">Marketplace</p>
+          <p className="font-['Source_Sans_3:Medium',sans-serif] font-medium leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap z-[2]">Marketplace</p>
         </div>
       </div>
     </div>
@@ -189,7 +189,7 @@ function Container1() {
       <div aria-hidden="true" className="absolute border-[rgba(255,255,255,0.01)] border-b-4 border-solid inset-0 pointer-events-none" />
       <div className="flex flex-row items-center justify-center size-full">
         <div className="content-stretch flex gap-[4px] h-full items-center justify-center p-[16px] relative">
-          <p className="font-['Source_Sans_3:SemiBold',sans-serif] font-semibold leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap">Marketplace templates</p>
+          <p className="font-['Source_Sans_3:Medium',sans-serif] font-medium leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap">Marketplace templates</p>
           <div className="content-stretch flex flex-col items-center justify-center relative shrink-0 size-[16px]" data-name="arrow/chevron-small-down">
             <div className="flex flex-[1_0_0] flex-col font-['Font_Awesome_6_Sharp:Solid',sans-serif] justify-center leading-[0] min-h-px min-w-px not-italic relative text-[#212223] text-[12px] text-center w-full">
               <p className="leading-[normal]">chevron-down</p>
@@ -207,7 +207,7 @@ function Container2() {
       <div aria-hidden="true" className="absolute border-[rgba(255,255,255,0.01)] border-b-4 border-solid inset-0 pointer-events-none" />
       <div className="flex flex-row items-center justify-center size-full">
         <div className="content-stretch flex gap-[4px] h-full items-center justify-center p-[16px] relative">
-          <p className="font-['Source_Sans_3:SemiBold',sans-serif] font-semibold leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap">Our people</p>
+          <p className="font-['Source_Sans_3:Medium',sans-serif] font-medium leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap">Our people</p>
         </div>
       </div>
     </div>
@@ -219,7 +219,7 @@ function Container3() {
     <div className="h-full relative shrink-0" data-name="container">
       <div className="flex flex-row items-center justify-center size-full">
         <div className="content-stretch flex gap-[4px] h-full items-center justify-center p-[16px] relative">
-          <p className="font-['Source_Sans_3:SemiBold',sans-serif] font-semibold leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap">Dashboards</p>
+          <p className="font-['Source_Sans_3:Medium',sans-serif] font-medium leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap">Dashboards</p>
           <div className="content-stretch flex flex-col items-center justify-center relative shrink-0 size-[16px]" data-name="arrow/chevron-small-down">
             <div className="flex flex-[1_0_0] flex-col font-['Font_Awesome_6_Sharp:Solid',sans-serif] justify-center leading-[0] min-h-px min-w-px not-italic relative text-[#212223] text-[12px] text-center w-full">
               <p className="leading-[normal]">chevron-down</p>
@@ -237,7 +237,7 @@ function Container4() {
       <div aria-hidden="true" className="absolute border-[rgba(255,255,255,0.01)] border-b-4 border-solid inset-0 pointer-events-none" />
       <div className="flex flex-row items-center justify-center size-full">
         <div className="content-stretch flex gap-[4px] h-full items-center justify-center p-[16px] relative">
-          <p className="font-['Source_Sans_3:SemiBold',sans-serif] font-semibold leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap">Dealcloser</p>
+          <p className="font-['Source_Sans_3:Medium',sans-serif] font-medium leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap">Dealcloser</p>
         </div>
       </div>
     </div>
@@ -250,7 +250,7 @@ function Container5() {
       <div aria-hidden="true" className="absolute border-[rgba(255,255,255,0.01)] border-b-4 border-solid inset-0 pointer-events-none" />
       <div className="flex flex-row items-center justify-center size-full">
         <div className="content-stretch flex gap-[4px] h-full items-center justify-center p-[16px] relative">
-          <p className="font-['Source_Sans_3:SemiBold',sans-serif] font-semibold leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap">Template generation</p>
+          <p className="font-['Source_Sans_3:Medium',sans-serif] font-medium leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap">Template generation</p>
         </div>
       </div>
     </div>
@@ -260,7 +260,7 @@ function Container5() {
 function Container6() {
   return (
     <div className="content-stretch flex gap-[4px] items-center justify-center mb-[-3px] p-[16px] relative rounded-tl-[4px] rounded-tr-[4px] shrink-0" data-name="container">
-      <p className="font-['Source_Sans_3:SemiBold',sans-serif] font-semibold leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap">Knowledge management</p>
+      <p className="font-['Source_Sans_3:Medium',sans-serif] font-medium leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap">Knowledge management</p>
       <div className="content-stretch flex flex-col items-center justify-center relative shrink-0 size-[16px]" data-name="arrow/chevron-small-down">
         <div className="flex flex-[1_0_0] flex-col font-['Font_Awesome_6_Sharp:Solid',sans-serif] justify-center leading-[0] min-h-px min-w-px not-italic relative text-[12px] text-center text-white w-full">
           <p className="leading-[normal]">chevron-down</p>
@@ -442,7 +442,7 @@ function Container7() {
       <div aria-hidden="true" className="absolute border-[rgba(255,255,255,0.01)] border-b-4 border-solid inset-0 pointer-events-none" />
       <div className="flex flex-row items-center justify-center size-full">
         <div className="content-stretch flex gap-[4px] h-full isolate items-center justify-center p-[16px] relative">
-          <p className="font-['Source_Sans_3:SemiBold',sans-serif] font-semibold leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap z-[2]">Dashboard</p>
+          <p className="font-['Source_Sans_3:Medium',sans-serif] font-medium leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap z-[2]">Dashboard</p>
           <div className="content-stretch flex flex-col items-center justify-center relative shrink-0 size-[16px] z-[1]" data-name="arrow/chevron-small-down">
             <div className="flex flex-[1_0_0] flex-col font-['Font_Awesome_6_Sharp:Solid',sans-serif] justify-center leading-[0] min-h-px min-w-px not-italic relative text-[#212223] text-[12px] text-center w-full">
               <p className="leading-[normal]">chevron-down</p>
@@ -460,7 +460,7 @@ function Container8() {
       <div aria-hidden="true" className="absolute border-[rgba(255,255,255,0.01)] border-b-4 border-solid inset-0 pointer-events-none" />
       <div className="flex flex-row items-center justify-center size-full">
         <div className="content-stretch flex gap-[4px] h-full items-center justify-center p-[16px] relative">
-          <p className="font-['Source_Sans_3:SemiBold',sans-serif] font-semibold leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap">Activity</p>
+          <p className="font-['Source_Sans_3:Medium',sans-serif] font-medium leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap">Activity</p>
         </div>
       </div>
     </div>
@@ -473,7 +473,7 @@ function Container9() {
       <div aria-hidden="true" className="absolute border-[rgba(255,255,255,0.01)] border-b-4 border-solid inset-0 pointer-events-none" />
       <div className="flex flex-row items-center justify-center size-full">
         <div className="content-stretch flex gap-[4px] h-full items-center justify-center p-[16px] relative">
-          <p className="font-['Source_Sans_3:SemiBold',sans-serif] font-semibold leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap">Documents</p>
+          <p className="font-['Source_Sans_3:Medium',sans-serif] font-medium leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap">Documents</p>
         </div>
       </div>
     </div>
@@ -486,7 +486,7 @@ function Container10() {
       <div aria-hidden="true" className="absolute border-[rgba(255,255,255,0.01)] border-b-4 border-solid inset-0 pointer-events-none" />
       <div className="flex flex-row items-center justify-center size-full">
         <div className="content-stretch flex gap-[4px] h-full items-center justify-center p-[16px] relative">
-          <p className="font-['Source_Sans_3:SemiBold',sans-serif] font-semibold leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap">Tracker</p>
+          <p className="font-['Source_Sans_3:Medium',sans-serif] font-medium leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap">Tracker</p>
         </div>
       </div>
     </div>
@@ -499,7 +499,7 @@ function Container11() {
       <div aria-hidden="true" className="absolute border-[rgba(255,255,255,0.01)] border-b-4 border-solid inset-0 pointer-events-none" />
       <div className="flex flex-row items-center justify-center size-full">
         <div className="content-stretch flex gap-[4px] h-full items-center justify-center p-[16px] relative">
-          <p className="font-['Source_Sans_3:SemiBold',sans-serif] font-semibold leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap">Tasks</p>
+          <p className="font-['Source_Sans_3:Medium',sans-serif] font-medium leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap">Tasks</p>
         </div>
       </div>
     </div>
@@ -512,7 +512,7 @@ function Container12() {
       <div aria-hidden="true" className="absolute border-[rgba(255,255,255,0.01)] border-b-4 border-solid inset-0 pointer-events-none" />
       <div className="flex flex-row items-center justify-center size-full">
         <div className="content-stretch flex gap-[4px] h-full items-center justify-center p-[16px] relative">
-          <p className="font-['Source_Sans_3:SemiBold',sans-serif] font-semibold leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap">Reporting</p>
+          <p className="font-['Source_Sans_3:Medium',sans-serif] font-medium leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap">Reporting</p>
           <div className="content-stretch flex flex-col items-center justify-center relative shrink-0 size-[16px]" data-name="arrow/chevron-small-down">
             <div className="flex flex-[1_0_0] flex-col font-['Font_Awesome_6_Sharp:Solid',sans-serif] justify-center leading-[0] min-h-px min-w-px not-italic relative text-[#212223] text-[12px] text-center w-full">
               <p className="leading-[normal]">chevron-down</p>
@@ -527,7 +527,7 @@ function Container12() {
 function Container13() {
   return (
     <div className="content-stretch flex gap-[4px] items-center justify-center mb-[-3px] p-[16px] relative rounded-tl-[4px] rounded-tr-[4px] shrink-0" data-name="container">
-      <p className="font-['Source_Sans_3:SemiBold',sans-serif] font-semibold leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap">Admin</p>
+      <p className="font-['Source_Sans_3:Medium',sans-serif] font-medium leading-[1.5] relative shrink-0 text-[#212223] text-[16px] whitespace-nowrap">Admin</p>
     </div>
   );
 }
