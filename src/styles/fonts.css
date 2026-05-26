@@ -94,3 +94,40 @@
   font-style: italic;
   font-display: swap;
 }
+
+/* Named variants for backwards compatibility with existing code */
+@font-face {
+  font-family: 'Clario:Light';
+  src: url('/fonts/Clario-Light.woff2') format('woff2'),
+       url('/fonts/Clario-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clario:Medium';
+  src: url('/fonts/Clario-Medium.woff2') format('woff2'),
+       url('/fonts/Clario-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clario:Bold';
+  src: url('/fonts/Clario-Bold.woff2') format('woff2'),
+       url('/fonts/Clario-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clario:Black';
+  src: url('/fonts/Clario-Black.woff2') format('woff2'),
+       url('/fonts/Clario-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}

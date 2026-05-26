@@ -18,7 +18,7 @@ export function SafButton({ onClick }: SafButtonProps) {
             <Sparkles className="w-4 h-4 text-[#D64000] fill-[#D64000]" />
           </div>
         </div>
-        <div className="flex flex-col font-['Clario',sans-serif] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#1d4b34] text-[16px] whitespace-nowrap">
+        <div className="flex flex-col font-['Clario:Medium',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#1d4b34] text-[16px] whitespace-nowrap">
           <p className="leading-[1.35]">HighQ Assist</p>
         </div>
       </div>
