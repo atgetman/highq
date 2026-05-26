@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import { Link } from "react-router"
 import {
   LayoutDashboard,
   Building2,
@@ -183,16 +184,16 @@ export function LG() {
           <h3 className="mb-3 font-['Source_Sans_3',sans-serif] text-[12px] font-medium uppercase tracking-wide text-[#6B7280]">Switch site</h3>
           <ul className="space-y-2">
             <li>
-              <a href="/alpine" className="flex items-center justify-between rounded-md px-3 py-2 font-['Source_Sans_3',sans-serif] text-[14px] text-[#212223] hover:bg-[#F8F8F6]">
+              <Link to="/alpine" className="flex items-center justify-between rounded-md px-3 py-2 font-['Source_Sans_3',sans-serif] text-[14px] text-[#212223] hover:bg-[#F8F8F6] no-underline">
                 <span>Project Alpine</span>
                 <ArrowRight className="h-4 w-4 text-[#6B7280]" />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/vodafone" className="flex items-center justify-between rounded-md px-3 py-2 font-['Source_Sans_3',sans-serif] text-[14px] text-[#212223] hover:bg-[#F8F8F6]">
+              <Link to="/vodafone" className="flex items-center justify-between rounded-md px-3 py-2 font-['Source_Sans_3',sans-serif] text-[14px] text-[#212223] hover:bg-[#F8F8F6] no-underline">
                 <span>Vodafone Litigation</span>
                 <ArrowRight className="h-4 w-4 text-[#6B7280]" />
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
