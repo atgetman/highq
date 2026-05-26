@@ -214,7 +214,7 @@ function NavItem({ label, active, hasDropdown, to, lightTheme }: NavItemProps) {
   const content = (
     <div className="h-full flex flex-col items-center justify-center relative group">
       <div className={`content-stretch flex gap-[4px] items-center justify-center px-[16px] py-[8px] relative rounded-tl-[4px] rounded-tr-[4px] transition-colors ${hoverBg}`}>
-        <p className={`font-['Source_Sans_3:SemiBold',sans-serif] font-semibold leading-[1.5] relative ${textColor} text-[16px] whitespace-nowrap`}>
+        <p className={`font-['Source_Sans_3:Medium',sans-serif] font-medium leading-[1.5] relative ${textColor} text-[16px] whitespace-nowrap`}>
           {label}
         </p>
         {hasDropdown && (
@@ -256,7 +256,7 @@ function MoreDropdown({ isOpen, setIsOpen, items }: MoreDropdownProps) {
         onClick={() => setIsOpen(!isOpen)}
       >
         <div className="content-stretch flex gap-[4px] items-center justify-center px-[16px] py-[8px] relative rounded-tl-[4px] rounded-tr-[4px] transition-colors group-hover:bg-[#e8e8e8]">
-          <p className="font-['Source_Sans_3:SemiBold',sans-serif] font-semibold leading-[1.5] relative text-[#212223] text-[16px] whitespace-nowrap">
+          <p className="font-['Source_Sans_3:Medium',sans-serif] font-medium leading-[1.5] relative text-[#212223] text-[16px] whitespace-nowrap">
             More...
           </p>
         </div>
