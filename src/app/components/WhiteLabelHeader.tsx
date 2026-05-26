@@ -48,7 +48,7 @@ export function WhiteLabelHeader({ onCoCounselClick }: WhiteLabelHeaderProps) {
             </button>
             <button className="w-10 h-10 flex items-center justify-center">
               <div className="w-[34px] h-[34px] rounded-full border border-[#acb7b1] overflow-hidden bg-[#0a4e75] flex items-center justify-center">
-                <span className="text-white font-['Source_Sans_3:SemiBold',sans-serif] text-[14px]">
+                <span className="text-white font-['Source_Sans_3',sans-serif] font-medium text-[14px]">
                   TS
                 </span>
               </div>
@@ -214,7 +214,7 @@ function NavItem({ label, active, hasDropdown, to, lightTheme }: NavItemProps) {
   const content = (
     <div className="h-full flex flex-col items-center justify-center relative group">
       <div className={`content-stretch flex gap-[4px] items-center justify-center px-[16px] py-[8px] relative rounded-tl-[4px] rounded-tr-[4px] transition-colors ${hoverBg}`}>
-        <p className={`font-['Source_Sans_3:Medium',sans-serif] font-medium leading-[1.5] relative ${textColor} text-[16px] whitespace-nowrap`}>
+        <p className={`font-['Source_Sans_3',sans-serif] font-medium leading-[1.5] relative ${textColor} text-[16px] whitespace-nowrap`}>
           {label}
         </p>
         {hasDropdown && (
@@ -256,7 +256,7 @@ function MoreDropdown({ isOpen, setIsOpen, items }: MoreDropdownProps) {
         onClick={() => setIsOpen(!isOpen)}
       >
         <div className="content-stretch flex gap-[4px] items-center justify-center px-[16px] py-[8px] relative rounded-tl-[4px] rounded-tr-[4px] transition-colors group-hover:bg-[#e8e8e8]">
-          <p className="font-['Source_Sans_3:Medium',sans-serif] font-medium leading-[1.5] relative text-[#212223] text-[16px] whitespace-nowrap">
+          <p className="font-['Source_Sans_3',sans-serif] font-medium leading-[1.5] relative text-[#212223] text-[16px] whitespace-nowrap">
             More...
           </p>
         </div>
@@ -281,7 +281,7 @@ function MoreDropdown({ isOpen, setIsOpen, items }: MoreDropdownProps) {
                     className="flex items-center justify-between px-4 py-3 no-underline text-[#212223]"
                     onClick={() => setIsOpen(false)}
                   >
-                    <span className="font-['Source_Sans_3:SemiBold',sans-serif] font-semibold text-[15px]">
+                    <span className="font-['Source_Sans_3',sans-serif] font-medium text-[15px]">
                       {item.label}
                     </span>
                     {item.hasDropdown && (
@@ -290,7 +290,7 @@ function MoreDropdown({ isOpen, setIsOpen, items }: MoreDropdownProps) {
                   </Link>
                 ) : (
                   <div className="flex items-center justify-between px-4 py-3 cursor-pointer">
-                    <span className="font-['Source_Sans_3:SemiBold',sans-serif] font-semibold text-[15px] text-[#212223]">
+                    <span className="font-['Source_Sans_3',sans-serif] font-medium text-[15px] text-[#212223]">
                       {item.label}
                     </span>
                     {item.hasDropdown && (
