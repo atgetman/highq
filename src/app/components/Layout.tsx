@@ -3,6 +3,7 @@ import { Outlet, useLocation } from 'react-router';
 import { CoCounselDrawer } from './CoCounselDrawer';
 import { HighQAssistant } from './HighQAssistant';
 import { WhiteLabelHeader } from './WhiteLabelHeader';
+import { GlobalNavBar } from './GlobalNavBar';
 import { HelpCircle } from 'lucide-react';
 import Footer from '../../imports/Footer/Footer';
 
@@ -55,6 +56,9 @@ export function Layout() {
         </>
       )}
       
+      {/* Global persistent nav bar */}
+      <GlobalNavBar />
+
       {/* White Label Header - Armstrong + Fischer */}
       <WhiteLabelHeader onCoCounselClick={handleOpenChat} />
 
